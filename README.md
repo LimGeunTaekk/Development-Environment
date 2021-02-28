@@ -89,6 +89,8 @@
  
 ![env_structure](https://user-images.githubusercontent.com/70448161/109423909-bcce9a80-7a24-11eb-8e44-d4507721e756.png)
 
+---
+
 ## Anaconda 
 
 #### 아나콘다(Anaconda)란?
@@ -135,3 +137,31 @@
 * 가상환경 삭제하기
 
 ``` $ conda remove -n 가상환경이름 --all ```
+
+---
+
+## VScode
+
+링크 : https://code.visualstudio.com/
+
+**1.  Python 개발 확장 프로그램 설치**
+
+* Extension 에 가서 설치해주자 어렵지 않다
+
+![python](https://user-images.githubusercontent.com/70448161/109424764-7713d100-7a28-11eb-969f-02de1cee79a4.PNG)
+
+**2. Interpreter 설정**
+
+* Python 확장 프로그램을 설치한 후에는 Python 3.7 Interpreter를 추가해주자
+
+* ctrl + shift + P 단축키를 이용해 환경 설정 메뉴를 열고 Python:Select Interpreter 가 보이면 해당 항목을 클릭 해준다.
+
+* 이제 본인이 사용할 가상환경을 클릭해 적용해주면 된다.
+
+![GPU](https://user-images.githubusercontent.com/70448161/109424765-7844fe00-7a28-11eb-8c8e-f82d44dd3a8f.PNG)
+
+* 적용이 잘 된것을 확인 할 수 있다.
+
+![dq](https://user-images.githubusercontent.com/70448161/109424873-1933b900-7a29-11eb-9723-16056287725e.PNG)
+
+----
