@@ -144,6 +144,8 @@
 
 링크 : https://code.visualstudio.com/
 
+pytorch는 ``` $ conda install pytorch torchvision cudatoolkit=10.0 -c pytorch ``` 로 설치해주자 
+
 **1.  Python 개발 확장 프로그램 설치**
 
 * Extension 에 가서 설치해주자 어렵지 않다
