@@ -64,7 +64,11 @@
 
 * 다운로드가 완료 되면 아래와 같이 다운로드 된 경로에 ‘cuda’ 라는 파일이 생기고 하위 디렉토리에 파일이 생성되어 있음
 
-	경로이동 : 위 cuda 파일의 bin , include , lib 안에 있는 것들을 아까 설치 한 CUDA의 경로에 알맞게 각각 넣어 줌
+![cuda](https://user-images.githubusercontent.com/70448161/109424249-46329c80-7a26-11eb-9b4f-eaecca5028ff.PNG)
+
+* 위 cuda 파일의 bin , include , lib 안에 있는 것들을 아까 설치 한 CUDA의 경로(/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0)에 알맞게 각각 넣어 줌
+
+![dqwd](https://user-images.githubusercontent.com/70448161/109424309-809c3980-7a26-11eb-825d-d82d8e24eb46.PNG)
 
 
 #### 위의 과정을 완료했다면 , CUDA 설치는 끝나게 된다
@@ -105,33 +109,29 @@
 
 * 가상환경 생성하기
 
-$ conda create -n 가상환경이름 python=버전
+``` $ conda create -n 가상환경이름 python=버전 ```
 
 * 가상환경 확인하기
 
-$ conda info --envs
+``` $ conda info --envs ```
 
 * 가상환경 활성화하기
 
-$ conda activate 가상환경이름
+``` $ conda activate 가상환경이름 ```
 	
 * 가상환경 비활성화하기
 
-$ conda deactivate
+``` $ conda deactivate ```
 
 * 가상환경에 라이브러리 설치하기
 
-$ conda install -n 가상환경이름 geopandas
+``` $ conda install -n 가상환경이름 라이브러리 ```
 
- or
-$ conda activate 가상환경이름 
-$ conda install pandas
 
 * 가상환경 라이브러리 확인하기
 
-$ conda activate 가상환경이름
-$ conda list
+``` $ conda list ```
 
 * 가상환경 삭제하기
 
-$ conda remove -n 가상환경이름 --all
+``` $ conda remove -n 가상환경이름 --all ```
